@@ -1,0 +1,1573 @@
+<?php
+
+/* NOTE: DO NOT CHANGE THIS FILE. IF YOU WANT TO UPDATE THE LANGUAGE THEN COPY THIS FILE TO custom_lang.php AND UPDATE THERE */
+
+/* language locale */
+$lang["language_locale"] = "vi"; //locale code
+$lang["language_locale_long"] = "vi-VN"; //long locale code
+
+/* common */
+$lang["add"] = "Thêm";
+$lang["edit"] = "Sửa";
+$lang["close"] = "Đóng";
+$lang["cancel"] = "Hủy";
+$lang["save"] = "Lưu";
+$lang["delete"] = "Xóa";
+$lang["description"] = "Mô tả";
+$lang["admin"] = "Admin";
+$lang["manager"] = "Manager";
+$lang["options"] = "Tùy chọn";
+$lang["id"] = "ID";
+$lang["name"] = "Họ và tên";
+$lang["email"] = "Email";
+$lang["username"] = "Tài khoản";
+$lang["password"] = "Mật khẩu";
+$lang["retype_password"] = "Mật khẩu";
+$lang["previous"] = "Trước";
+$lang["next"] = "Kế";
+$lang["active"] = "H.động";
+$lang["inactive"] = "Không H.động";
+$lang["status"] = "Trạng thái";
+$lang["start_date"] = "Ngày b.đầu";
+$lang["end_date"] = "Ngày k.thúc";
+$lang["start_time"] = "Th.gian b.đầu";
+$lang["end_time"] = "Th.g k.thúc";
+$lang["deadline"] = "Hạn chót";
+$lang["added"] = "Đã thêm";
+$lang["created_date"] = "Ngày tạo";
+$lang["created"] = "Đã tạo";
+$lang["created_by"] = "Tạo bởi";
+$lang["updated"] = "Cập nhật";
+$lang["deleted"] = "Đã xóa";
+$lang["currency"] = "Đồng tiền";
+$lang["new"] = "Mới";
+$lang["open"] = "Đang t.hiện";
+$lang["closed"] = "Đã đóng";
+$lang["date"] = "Ngày";
+$lang["yes"] = "Có";
+$lang["no"] = "Không";
+$lang["add_more"] = "Thêm";
+$lang["crop"] = "Thu gọn";
+$lang["income"] = "Thu nhập";
+$lang["income_vs_expenses"] = "Thu nhập so Chi phí";
+
+$lang["title"] = "Tiêu đề";
+$lang["reset"] = "Đặt lại";
+$lang["share_with"] = "Chia sẻ với";
+$lang["company_name"] = "Tên đơn vị";
+$lang["address"] = "Địa chỉ";
+$lang["city"] = "Thành phố";
+$lang["state"] = "Tỉnh/Bang";
+$lang["zip"] = "Mã bưu cục";
+$lang["country"] = "Quốc gia";
+$lang["phone"] = "Điện thoại";
+$lang["private"] = "Riêng tư";
+$lang["website"] = "Website";
+
+$lang["sunday"] = "C.Nhật";
+$lang["monday"] = "T.Hai";
+$lang["tuesday"] = "T.Ba";
+$lang["wednesday"] = "T.Tư";
+$lang["thursday"] = "T.Năm";
+$lang["friday"] = "T.Sáu";
+$lang["saturday"] = "T.Bảy";
+
+$lang["daily"] = "Hàng ngày";
+$lang["monthly"] = "Hàng tháng";
+$lang["weekly"] = "Hàng tuần";
+$lang["yearly"] = "Hàng năm";
+
+$lang["see_all"] = "Xem tất cả";
+
+/* messages */
+$lang["error_occurred"] = "Sorry, an error occurred during processing the action! <br /> Please try again later.";
+$lang["field_required"] = "Cần nhập thông tin.";
+$lang["end_date_must_be_equal_or_greater_than_start_date"] = "End date must be equal or greater than Start date.";
+$lang["date_must_be_equal_or_greater_than_today"] = "Date must be equal or greater than today.";
+$lang["enter_valid_email"] = "Please enter a valid email address.";
+$lang["enter_same_value"] = "Please enter the same value again.";
+$lang["record_saved"] = "The record has been saved.";
+$lang["record_updated"] = "The record has been updated.";
+$lang["record_cannot_be_deleted"] = "The record is in use, you can't delete the record!";
+$lang["record_deleted"] = "The record has been deleted.";
+$lang["record_undone"] = "The record has been undone.";
+$lang["settings_updated"] = "The settings has been updated.";
+$lang["enter_minimum_6_characters"] = "Please enter at least 6 characters.";
+$lang["message_sent"] = "The message has been sent.";
+$lang["invalid_file_type"] = "Kiểu tập tin không được tải lên, hãy thêm đuôi mở rộng trong phần Cài đặt.";
+$lang["something_went_wrong"] = "Oops, something went wrong!";
+$lang["duplicate_email"] = "The email address you have entered is already registered.";
+$lang["comment_submited"] = "The comment has been submitted.";
+$lang["no_new_messages"] = "Bạn không có tin nhắn mới";
+$lang["sent_you_a_message"] = "Đã gửi bạn một tin nhắn";
+$lang["max_file_size_3mb_message"] = "Kích thước tập tin không nên to quá 3MB";
+$lang["keep_it_blank_to_use_default"] = "Keep it blank to use the default";
+$lang["admin_user_has_all_power"] = "Admin user's has power to access/modify everything in this system!";
+$lang["no_posts_to_show"] = "Không có bài đăng để hiển thị";
+
+/* team_member */
+$lang["add_team_member"] = "Thêm thành viên";
+$lang["edit_team_member"] = "Sửa thành viên nhóm";
+$lang["delete_team_member"] = "Xóa thành viên nhóm";
+$lang["team_member"] = "Thành viên nhóm";
+$lang["team_members"] = "ĐỘI NGŨ BNS";
+$lang["active_members"] = "Active";
+$lang["inactive_members"] = "Inactive";
+$lang["first_name"] = "Tên gọi";
+$lang["last_name"] = "Họ";
+$lang["mailing_address"] = "Địa chỉ bưu chính";
+$lang["alternative_address"] = "Địa chỉ thay thế";
+$lang["phone"] = "Số điện thoại";
+$lang["alternative_phone"] = "Số điện thoại khác";
+$lang["gender"] = "Giới tính";
+$lang["male"] = "Nam";
+$lang["female"] = "Nữ";
+$lang["date_of_birth"] = "Ngày sinh";
+$lang["date_of_hire"] = "Ngày tuyển";
+$lang["ssn"] = "CCCD/CMND";
+$lang["salary"] = "Lương";
+$lang["salary_term"] = "Kỳ thanh toán";
+$lang["job_info"] = "Thông tin Công việc";
+$lang["job_title"] = "Chức danh";
+$lang["general_info"] = "Thông tin Chung";
+$lang["account_settings"] = "Tài khoản";
+$lang["list_view"] = "Xem DS";
+$lang["profile_image_changed"] = "Ảnh hồ sơ đã được thay đổi.";
+$lang["send_invitation"] = "Gửi thư mời";
+$lang["invitation_sent"] = "The invitation has been sent.";
+$lang["reset_info_send"] = "Email sent!<br />Please check your email for instructions.";
+$lang["profile"] = "Hồ sơ";
+$lang["my_profile"] = "Hồ sơ của tôi";
+$lang["change_password"] = "Thay đổi mật khẩu";
+$lang["social_links"] = "Liên kết xã hội";
+$lang["view_details"] = "Xem chi tiết";
+$lang["invite_someone_to_join_as_a_team_member"] = "Mời ai đó tham gia làm thành viên nhóm.";
+
+/* team */
+$lang["add_team"] = "Thêm nhóm";
+$lang["edit_team"] = "Sửa nhóm";
+$lang["delete_teamn"] = "Xóa nhóm";
+$lang["team"] = "Nhóm";
+$lang["select_a_team"] = "Chọn một nhóm";
+
+/* dashboard */
+$lang["dashboard"] = "Dashboard";
+
+/* attendance */
+$lang["add_attendance"] = "Thêm thời gian thủ công";
+$lang["edit_attendance"] = "Sửa phiếu thời gian";
+$lang["delete_attendance"] = "Delete time card";
+$lang["attendance"] = "Phiếu công";
+$lang["clock_in"] = "Vào làm";
+$lang["clock_out"] = "Ra về";
+$lang["in_date"] = "In Date";
+$lang["out_date"] = "Out Date";
+$lang["in_time"] = "In Time";
+$lang["out_time"] = "Out Time";
+$lang["clock_started_at"] = "Giờ làm bắt đầu từ";
+$lang["you_are_currently_clocked_out"] = "Bạn đã chấm ra về";
+$lang["members_clocked_in"] = "Thành viên vào làm";
+$lang["members_clocked_out"] = "Thành viên ra về";
+$lang["my_time_cards"] = "Phiếu công của tôi";
+$lang["timecard_statistics"] = "Thống kê phiếu thời gian";
+$lang["total_hours_worked"] = "Tổng giờ đã làm";
+$lang["total_project_hours"] = "Tổng giờ đầu việc";
+
+/* leave types */
+$lang["add_leave_type"] = "Thêm loại nghỉ phép";
+$lang["edit_leave_type"] = "Sửa loại nghỉ phép";
+$lang["delete_leave_type"] = "Xóa loại nghỉ phép";
+$lang["leave_type"] = "Loại nghỉ phép";
+$lang["leave_types"] = "Loại nghỉ phép";
+
+/* leave */
+$lang["apply_leave"] = "Xin nghỉ phép";
+$lang["assign_leave"] = "Gán nghỉ phép";
+$lang["leaves"] = "Nghỉ phép";
+$lang["pending_approval"] = "Chờ xét duyệt";
+$lang["all_applications"] = "Tất cả đơn xin nghỉ phép";
+$lang["duration"] = "Thời gian";
+$lang["single_day"] = "Một ngày";
+$lang["mulitple_days"] = "Nhiều ngày";
+$lang["reason"] = "Lý do";
+$lang["applicant"] = "Người nộp";
+$lang["approved"] = "Đã duyệt";
+$lang["approve"] = "Phê duyệt";
+$lang["rejected"] = "Đã từ chối";
+$lang["reject"] = "Từ chối";
+$lang["canceled"] = "Đã hủy";
+$lang["completed"] = "Đã hoàn thành";
+$lang["pending"] = "Đang chờ";
+$lang["day"] = "ngày";
+$lang["days"] = "ngày";
+$lang["hour"] = "giờ";
+$lang["hours"] = "giờ";
+$lang["application_details"] = "Chi tiết đơn xin";
+$lang["rejected_by"] = "Từ chối bởi";
+$lang["approved_by"] = "Phê duyệt bởi";
+$lang["start_date_to_end_date_format"] = "%s tới %s";
+$lang["my_leave"] = "Lịch nghỉ phép của tôi";
+
+/* events */
+$lang["add_event"] = "Thêm sự kiện";
+$lang["edit_event"] = "Sửa sự kiện";
+$lang["delete_event"] = "Xóa sự kiện";
+$lang["events"] = "Sự kiện";
+$lang["event_calendar"] = "Lịch sự kiện";
+$lang["location"] = "Địa điểm";
+$lang["event_details"] = "Chi tiết về sự kiện";
+$lang["event_deleted"] = "Sự kiện này đã bị xóa.";
+$lang["view_on_calendar"] = "Xem trên lịch";
+$lang["no_event_found"] = "Không có sự kiện nào!";
+$lang["events_today"] = "Sự kiện hôm nay";
+
+/* announcement */
+$lang["add_announcement"] = "Thêm thông báo";
+$lang["edit_announcement"] = "Sửa thông báo";
+$lang["delete_announcement"] = "Xóa thông báo";
+$lang["announcement"] = "Thông báo";
+$lang["announcements"] = "TIN NỘI BỘ";
+$lang["all_team_members"] = "Tất cả thành viên";
+$lang["all_team_clients"] = "Tất cả đối tác";
+
+/* settings */
+$lang["app_settings"] = "Cài đặt Ứng dụng";
+$lang["app_title"] = "Tiêu đề ứng dụng";
+$lang["site_logo"] = "Logo của trang";
+$lang["invoice_logo"] = "Logo Hóa đơn";
+$lang["timezone"] = "Múi giờ";
+$lang["date_format"] = "Định dạng ngày";
+$lang["time_format"] = "Định dạng giờ";
+$lang["first_day_of_week"] = "Ngày đầu tuần";
+$lang["currency_symbol"] = "Biểu tượng đồng tiền";
+$lang["general"] = "Chung";
+$lang["general_settings"] = "Thiết lập chung";
+$lang["item_purchase_code"] = "Nhập là NULLED";
+$lang["company"] = "Đơn vị";
+$lang["company_settings"] = "Thiết lập đơn vị";
+$lang["email_settings"] = "Cài đặt Email";
+$lang["payment_methods"] = "H.thức T.toán";
+$lang["email_sent_from_address"] = "Email sent from address";
+$lang["email_sent_from_name"] = "Email sent from name";
+$lang["email_use_smtp"] = "Use SMTP";
+$lang["email_smtp_host"] = "SMTP Host";
+$lang["email_smtp_user"] = "SMTP User";
+$lang["email_smtp_password"] = "SMPT Password";
+$lang["email_smtp_port"] = "SMTP Port";
+$lang["send_test_mail_to"] = "Send a test mail to";
+$lang["test_mail_sent"] = "The test mail has been sent!";
+$lang["test_mail_send_failed"] = "Failed to send the test email.";
+$lang["settings"] = "Cài đặt";
+$lang["updates"] = "Cập nhật";
+$lang["current_version"] = "Phiên bản hiện tại";
+$lang["language"] = "Ngôn ngữ";
+$lang["ip_restriction"] = "Cấm IP truy cập";
+$lang["varification_failed_message"] = "Sorry, we could not verify your item purchase code.";
+$lang["enter_one_ip_per_line"] = "Enter one IP per line. Keep it blank to allow all IPs. *Admin users will not be affected.";
+$lang["allow_timecard_access_from_these_ips_only"] = "Allow timecard access from these IPs only.";
+$lang["decimal_separator"] = "Decimal Separator";
+$lang["client_settings"] = "Cài đặt đối tác";
+$lang["disable_client_login_and_signup"] = "Không cho khách hàng đăng nhập và đăng ký";
+$lang["disable_client_login_help_message"] = "Client contacts will not be able to login/sign up in this system until you revert this setting.";
+$lang["who_can_send_or_receive_message_to_or_from_clients"] = "Who can send/receive message to/from clients";
+
+/* account */
+$lang["authentication_failed"] = "Xác thực không thành công!";
+$lang["signin"] = "Đăng nhập";
+$lang["sign_out"] = "Đăng xuất";
+$lang["you_dont_have_an_account"] = "Bạn chưa có tài khoản?";
+$lang["already_have_an_account"] = "Bạn đã có tài khoản rồi?";
+$lang["forgot_password"] = "Bạn quên mật khẩu hãy nhấn vào đây? hoặc liên hệ Mr. Huy để được hỗ trợ.";
+$lang["signup"] = "Đăng ký";
+$lang["input_email_to_reset_password"] = "Input your email to reset your password";
+$lang["no_acount_found_with_this_email"] = "Sorry, no account found with this email.";
+$lang["reset_password"] = "Đặt lại mật khẩu";
+$lang["password_reset_successfully"] = "Mật khẩu của bạn đã được đặt lại thành công.";
+$lang["account_created"] = "Tài khoản của bạn đã được tạo thành công!";
+$lang["invitation_expaired_message"] = "The invitation has expired or something went wrong";
+$lang["account_already_exists_for_your_mail"] = "Đã có tài khoản (người dùng/khách hàng/liên lạc của khách hàng) cũng sử dụng email này.";
+$lang["create_an_account_as_a_new_client"] = "Tạo tài khoản mới cho khách hàng.";
+$lang["create_an_account_as_a_team_member"] = "Tạo tài khoản mới cho thành viên nhóm.";
+$lang["create_an_account_as_a_client_contact"] = "Tạo tài khoản làm liên lạc của khách hàng.";
+
+/* messages */
+$lang["messages"] = "Tin nhắn";
+$lang["message"] = "Tin nhắn";
+$lang["compose"] = "Soạn";
+$lang["send_message"] = "Gửi";
+$lang["write_a_message"] = "Viết tin nhắn...";
+$lang["reply_to_sender"] = "Trả lời người gửi...";
+$lang["subject"] = "Chủ đề";
+$lang["send"] = "Gửi";
+$lang["to"] = "Tới";
+$lang["from"] = "Từ";
+$lang["inbox"] = "Tin đến";
+$lang["sent_items"] = "Đã gửi";
+$lang["me"] = "Tôi";
+$lang["select_a_message"] = "Chọn một tin nhắn để xem";
+
+/* clients */
+$lang["add_client"] = "Thêm đối tác";
+$lang["edit_client"] = "Sửa đối tác";
+$lang["delete_client"] = "Xóa đối tác";
+$lang["client"] = "Đối tác";
+$lang["clients"] = "Đối tác";
+$lang["client_details"] = "Chi tiết đối tác";
+$lang["due"] = "Hạn TT";
+
+$lang["add_contact"] = "Thêm liên lạc";
+$lang["edit_contact"] = "Sửa liên lạc";
+$lang["delete_contact"] = "Xóa liên lạc";
+$lang["contact"] = "Liên lạc";
+$lang["contacts"] = "Danh bạ";
+$lang["users"] = "Người dùng";
+$lang["primary_contact"] = "Liên lạc chính";
+$lang["disable_login"] = "Cấm đăng nhập";
+$lang["disable_login_help_message"] = "The user will not be able to login in this system!";
+$lang["email_login_details"] = "Email login details to this user";
+$lang["generate"] = "Tạo";
+$lang["show_text"] = "Hiện văn bản";
+$lang["hide_text"] = "Ẩn văn bản";
+$lang["mark_as_inactive"] = "Đánh dấu là Không hoạt động";
+$lang["mark_as_inactive_help_message"] = "The inactive users will not be able to login in this system and not be counted in the active user list!";
+
+$lang["invoice_id"] = "Invoice ID";
+$lang["payments"] = "Thanh toán";
+$lang["invoice_sent_message"] = "Hóa đơn đã được gửi!";
+$lang["attached"] = "Đã đính kèm";
+$lang["vat_number"] = "Số VAT";
+$lang["invite_an_user"] = "Invite an user for %s"; // Invite an user for {company name}
+$lang["unit_type"] = "Kiểu đơn vị tính";
+
+/* projects */
+$lang["add_project"] = "Thêm đầu việc";
+$lang["edit_project"] = "Sửa đầu việc";
+$lang["delete_project"] = "Xóa đầu việc";
+$lang["project"] = "Đầu việc";
+$lang["projects"] = "* Đầu việc *";
+$lang["all_projects"] = "Tất cả đầu việc";
+$lang["member"] = "Thành viên";
+$lang["overview"] = "Tổng quan";
+$lang["project_members"] = "Người tham gia đầu việc";
+$lang["add_member"] = "Thêm thành viên";
+$lang["delete_member"] = "Xóa thành viên";
+$lang["start_timer"] = "Bắt đầu Bộ đếm giờ";
+$lang["stop_timer"] = "Kết thúc Bộ đếm giờ";
+$lang["project_timeline"] = "Tiến trình đầu việc";
+$lang["open_projects"] = "Đầu việc đang t.hiện";
+$lang["projects_completed"] = "Đầu việc đã hoàn thành";
+$lang["progress"] = "Đang làm";
+$lang["activity"] = "Hoạt động";
+$lang["started_at"] = "Bắt đầu từ";
+$lang["customer_feedback"] = "Trao đổi KH";
+$lang["project_comment_reply"] = "Project comment reply";
+$lang["task_comment_reply"] = "Task comment reply";
+$lang["file_comment_reply"] = "File comment reply   ";
+$lang["customer_feedback_reply"] = "Customer feedback reply";
+
+/* expense */
+$lang["add_category"] = "Thêm phân loại";
+$lang["edit_category"] = "Sửa phân loại";
+$lang["delete_category"] = "Xóa phân loại";
+$lang["category"] = "Phân loại";
+$lang["categories"] = "Danh mục";
+$lang["expense_categories"] = "Phân loại chi phí";
+$lang["add_expense"] = "Thêm chi phí";
+$lang["edit_expense"] = "Sửa chi phí";
+$lang["delete_expense"] = "Xóa chi phí";
+$lang["expense"] = "Chi phí";
+$lang["expenses"] = "Chi phí";
+$lang["date_of_expense"] = "Ngày chi phí";
+$lang["finance"] = "Tài chính";
+
+/* notes */
+$lang["add_note"] = "Thêm ghi chú";
+$lang["edit_note"] = "Sửa ghi chú";
+$lang["delete_note"] = "Xóa ghi chú";
+$lang["note"] = "Ghi chú";
+$lang["notes"] = "Sổ ghi chú";
+$lang["sticky_note"] = "Ghi chú (chỉ mình biết)";
+
+/* history */
+$lang["history"] = "Lịch sử";
+
+/* timesheet */
+$lang["timesheets"] = "Phiếu tính giờ";
+$lang["log_time"] = "Log time";
+$lang["edit_timelog"] = "Edit timelog";
+$lang["delete_timelog"] = "Delete timelog";
+$lang["timesheet_statistics"] = "Timesheet Statistics";
+
+/* milestones */
+$lang["add_milestone"] = "Thêm mốc";
+$lang["edit_milestone"] = "Sửa mốc";
+$lang["delete_milestone"] = "Xóa mốc";
+$lang["milestone"] = "Mốc cần đạt";
+$lang["milestones"] = "Mốc cần đạt";
+
+/* files */
+$lang["add_files"] = "Thêm tập tin";
+$lang["edit_file"] = "Sửa tập tin";
+$lang["delete_file"] = "Xóa tập tin";
+$lang["file"] = "Tập tin";
+$lang["files"] = "Tài liệu";
+$lang["file_name"] = "Tên tập tin";
+$lang["size"] = "Kích cỡ";
+$lang["uploaded_by"] = "Tải lên bởi";
+$lang["accepted_file_format"] = "Định dạng chấp nhận";
+$lang["comma_separated"] = "Phân cách bằng dấu phẩy";
+$lang["project_file"] = "Tập tin";
+$lang["download"] = "Tải về";
+$lang["download_files"] = "Tải %s tập tin"; //Ex. Download 4 files
+$lang["file_preview_is_not_available"] = "Không có hình thức xem trước tập tin.";
+
+/* tasks */
+$lang["add_task"] = "Thêm công việc";
+$lang["edit_task"] = "Sửa công việc";
+$lang["delete_task"] = "Xóa công việc";
+$lang["task"] = "Công việc";
+$lang["tasks"] = "Công việc";
+$lang["my_tasks"] = "Công việc của tôi";
+$lang["my_open_tasks"] = "Việc đang thực hiện";
+$lang["assign_to"] = "Gán cho";
+$lang["assigned_to"] = "Đã gán cho";
+$lang["labels"] = "Nhãn";
+$lang["to_do"] = "Cần làm";
+$lang["in_progress"] = "Đang làm";
+$lang["problems"] = "Có vướng mắc";
+$lang["review"] = "Chờ soát xét";
+$lang["done"] = "Hoàn thành";
+$lang["task_info"] = "Thông tin công việc";
+$lang["points"] = "Điểm";
+$lang["point"] = "Điểm";
+$lang["task_status"] = "Trạng thái công việc";
+
+/* comments */
+$lang["comment"] = "Cập nhật";
+$lang["comments"] = "Cập nhật";
+$lang["write_a_comment"] = "Viết cập nhật...";
+$lang["write_a_reply"] = "Viết trả lời...";
+$lang["post_comment"] = "Đăng cập nhật";
+$lang["post_reply"] = "Đăng trả lời";
+$lang["reply"] = "Trả lời";
+$lang["replies"] = "Trả lời";
+$lang["like"] = "Like";
+$lang["unlike"] = "Unlike";
+$lang["view"] = "Xem";
+$lang["project_comment"] = "Ghi chú đầu việc";
+$lang["task_comment"] = "Ghi chú công việc";
+$lang["file_comment"] = "Ghi chú tập tin";
+
+/* time format */
+$lang["today"] = "Hôm nay";
+$lang["yesterday"] = "Hôm qua";
+$lang["tomorrow"] = "Ngày mai";
+
+$lang["today_at"] = "Hôm nay lúc";
+$lang["yesterday_at"] = "Hôm qua lúc";
+
+/* tickets */
+
+$lang["add_ticket"] = "Thêm Ticket";
+$lang["ticket"] = "Ticket";
+$lang["tickets"] = "Ticket";
+$lang["ticket_id"] = "Ticket ID";
+$lang["client_replied"] = "KH đã trả lời";
+$lang["change_status"] = "Thay đổi trạng thái";
+$lang["last_activity"] = "H.động gần nhất";
+$lang["open_tickets"] = "Ticket chưa giải quyết";
+$lang["ticket_status"] = "Trạng thái Ticket";
+
+/* ticket types */
+
+$lang["add_ticket_type"] = "Thêm kiểu Ticket";
+$lang["ticket_type"] = "Kiểu Ticket";
+$lang["ticket_types"] = "Kiểu Ticket";
+$lang["edit_ticket_type"] = "Sửa kiểu Ticket";
+$lang["delete_ticket_type"] = "Xóa kiểu Ticket";
+
+/* payment methods */
+
+$lang["add_payment_method"] = "Thêm hình thức thanh toán";
+$lang["payment_method"] = "Hình thức thanh toán";
+$lang["payment_methods"] = "Hình thức thanh toán";
+$lang["edit_payment_method"] = "Sửa hình thức thanh toán";
+$lang["delete_payment_method"] = "Xóa hình thức thanh toán";
+
+/* invoices */
+
+$lang["add_invoice"] = "Thêm hóa đơn";
+$lang["edit_invoice"] = "Sửa hóa đơn";
+$lang["delete_invoice"] = "Xóa hóa đơn";
+$lang["invoice"] = "Hóa đơn";
+$lang["invoices"] = "Hóa đơn";
+$lang["bill_date"] = "Ngày lập";
+$lang["due_date"] = "Ngày đến hạn";
+$lang["payment_date"] = "Ngày thanh toán";
+$lang["bill_to"] = "Xuất cho";
+$lang["invoice_value"] = "Giá trị Hóa đơn";
+$lang["payment_received"] = "Số tiền nhận được";
+$lang["invoice_payments"] = "Thanh toán";
+$lang["draft"] = "Draft";
+$lang["fully_paid"] = "Đã trả hoàn toàn";
+$lang["partially_paid"] = "Đã trả một phần";
+$lang["not_paid"] = "Chưa trả";
+$lang["overdue"] = "Quá hạn trả";
+$lang["invoice_items"] = "Invoice items";
+$lang["edit_invoice"] = "Sửa hóa đơn";
+$lang["delete_invoice"] = "Xóa hóa đơn";
+$lang["item"] = "Mục";
+$lang["add_item"] = "Thêm mục";
+$lang["create_new_item"] = "Tạo mục mới";
+$lang["select_or_create_new_item"] = "Select from list or create new item...";
+$lang["quantity"] = "Số lượng";
+$lang["rate"] = "Đơn giá";
+$lang["total_of_all_pages"] = "Total of all pages";
+$lang["sub_total"] = "Tổng phụ";
+$lang["total"] = "Tổng cộng";
+$lang["last_email_sent"] = "Last email sent";
+$lang["item_library"] = "Thư viện mục";
+$lang["add_payment"] = "Thêm khoản thanh toán";
+$lang["never"] = "Không bao giờ";
+$lang["email_invoice_to_client"] = "Gửi email (đang lỗi)";
+$lang["download_pdf"] = "Tải PDF";
+$lang["print"] = "Bản in";
+$lang["actions"] = "Thao tác";
+$lang["balance_due"] = "Dư nợ";
+$lang["paid"] = "Đã trả";
+$lang["amount"] = "Số tiền";
+$lang["invoice_payment_list"] = "Invoice payment list";
+$lang["invoice_statistics"] = "Invoice Statistics";
+$lang["payment"] = "Thanh toán";
+
+/* email templates */
+$lang["email_templates"] = "Mẫu Email";
+$lang["select_a_template"] = "Chọn mẫu để sửa";
+$lang["avilable_variables"] = "Các biến hiện có";
+$lang["restore_to_default"] = "Khôi phục lại mặc định";
+$lang["template_restored"] = "Mẫu đã được khôi phục về mặc định.";
+$lang["login_info"] = "Thông tin đăng nhập";
+$lang["reset_password"] = "Đặt lại mật khẩu";
+$lang["team_member_invitation"] = "Mời làm thành viên nhóm";
+$lang["client_contact_invitation"] = "Mời liên lạc của khách hàng";
+$lang["send_invoice"] = "Gửi hóa đơn";
+$lang["signature"] = "Chữ ký";
+
+/* roles */
+
+$lang["role"] = "Vai trò";
+$lang["roles"] = "Quyền hạn";
+$lang["add_role"] = "Thêm vai trò";
+$lang["edit_role"] = "Sửa vai trò";
+$lang["delete_role"] = "Xóa vai trò";
+$lang["use_seetings_from"] = "Giống thiết lập từ";
+$lang["permissions"] = "Quyền hạn";
+$lang["yes_all_members"] = "Có, tất cả các thành viên";
+$lang["yes_specific_members_or_teams"] = "Có, thành viên hoặc nhóm cụ thể";
+$lang["yes_specific_ticket_types"] = "Có, kiểu Ticket cụ thể";
+$lang["select_a_role"] = "Chọn một vai trò";
+$lang["choose_members_and_or_teams"] = "Chọn thành viên và/hoặc nhóm";
+$lang["choose_ticket_types"] = "Chọn kiểu Ticket";
+$lang["excluding_his_her_time_cards"] = "Trừ phiếu giờ của chính họ";
+$lang["excluding_his_her_leaves"] = "Trừ phiếu xin nghỉ phép của chính họ";
+$lang["can_manage_team_members_leave"] = "Có thể xét duyệt phiếu xin nghỉ phép của các thành viên?";
+$lang["can_manage_team_members_timecards"] = "Có thể xét duyệt phiếu giờ làm của các thành viên?";
+$lang["can_access_invoices"] = "Có thể tiếp cận mục hóa đơn?";
+$lang["can_access_expenses"] = "Có thể tiếp cận mục chi phí?";
+$lang["can_access_clients_information"] = "Có thể tiếp cận thông tin đối tác?";
+$lang["can_access_tickets"] = "Có thể tiếp cận mục Ticket?";
+$lang["can_manage_announcements"] = "Có thể tiếp cận mục Thông báo?";
+
+/* timeline */
+$lang["post_placeholder_text"] = "Chia sẻ quan điểm hoặc tài liệu...";
+$lang["post"] = "Đăng";
+$lang["timeline"] = "Góc chia sẻ";
+$lang["load_more"] = "Tải thêm";
+$lang["upload_file"] = "Tải tập tin lên";
+$lang["upload"] = "Tải lên";
+$lang["new_posts"] = "Bài đăng mới";
+
+/* taxes */
+
+$lang["add_tax"] = "Thêm thuế";
+$lang["tax"] = "THUẾ";
+$lang["taxes"] = "Thuế";
+$lang["edit_tax"] = "Sửa thuế";
+$lang["delete_tax"] = "Xóa thuế";
+$lang["percentage"] = "Phần trăm (%)";
+$lang["second_tax"] = "THUẾ khác";
+
+/* Version 1.2 */
+$lang["available_on_invoice"] = "Available on Invoice";
+$lang["available_on_invoice_help_text"] = "The payment method will be appear in client's invoices.";
+$lang["minimum_payment_amount"] = "Minimum payment amount";
+$lang["minimum_payment_amount_help_text"] = "Clients will not be able to pay the invoice using this payment method, if the invoice value less than this value.";
+$lang["pay_invoice"] = "Pay Invoice";
+$lang["pay_button_text"] = "Pay button text";
+$lang["minimum_payment_validation_message"] = "The payment amount can't be less then: "; //ex. The payment amount can't be less then: USD 100.00
+$lang["invoice_settings"] = "Invoice Settings";
+$lang["allow_partial_invoice_payment_from_clients"] = "Allow partial payment from clients";
+$lang["invoice_color"] = "Invoice Color";
+$lang["invoice_footer"] = "Invoice Footer";
+$lang["invoice_preview"] = "Invoice Preview";
+$lang["close_preview"] = "Đóng Xem trước";
+$lang["only_me"] = "Chỉ tôi";
+$lang["specific_members_and_teams"] = "Chỉ thành viên và nhóm cụ thể";
+$lang["rows_per_page"] = "Hàng mỗi trang";
+$lang["price"] = "Giá";
+$lang["security_type"] = "Kiểu bảo mật";
+
+$lang["client_can_view_tasks"] = "Đối tác có thể xem các công việc?";
+$lang["client_can_create_tasks"] = "Đối tác có thể tạo các công việc?";
+$lang["client_can_edit_tasks"] = "Đối tác có thể sửa công việc?";
+$lang["client_can_comment_on_tasks"] = "Đối tác có thể trao đổi trên dòng công việc?";
+
+$lang["set_project_permissions"] = "Đặt các quyền hạn cho Đầu việc";
+$lang["can_create_projects"] = "Có thể tạo Đầu việc";
+$lang["can_edit_projects"] = "Có thể sửa Đầu việc";
+$lang["can_delete_projects"] = "Có thể xóa Đầu việc";
+$lang["can_create_tasks"] = "Có thể tạo công việc";
+$lang["can_edit_tasks"] = "Có thể sửa công việc";
+$lang["can_delete_tasks"] = "Có thể xóa công việc";
+$lang["can_comment_on_tasks"] = "Có thể trao đổi trên dòng công việc";
+$lang["can_create_milestones"] = "Có thể tạo Mốc cần đạt";
+$lang["can_edit_milestones"] = "Có thể sửa Mốc cần đạt";
+$lang["can_delete_milestones"] = "Có thể xóa Mốc cần đạt";
+$lang["can_add_remove_project_members"] = "Có thể Thêm/Xóa thành viên tham gia Đầu việc?";
+$lang["can_delete_files"] = "Có thể xóa tập tin";
+
+/* Version 1.2.2 */
+$lang["label"] = "Nhãn";
+$lang["send_bcc_to"] = "When sending invoice to client, send BCC to";
+$lang["mark_project_as_completed"] = "Chuyển sang Hoàn thành";
+$lang["mark_project_as_canceled"] = "Chuyển sang Hủy bỏ";
+$lang["mark_project_as_open"] = "Chuyển sang Đang T.Hiện";
+
+/* Version 1.3 */
+$lang["notification"] = "Thông báo";
+$lang["notifications"] = "Thông báo";
+$lang["notification_settings"] = "Cài đặt Thông báo";
+$lang["enable_email"] = "Gửi Email";
+$lang["enable_web"] = "Trên web";
+$lang["event"] = "Sự kiện";
+$lang["notify_to"] = "Thông báo cho";
+
+$lang["project_created"] = "Đầu việc đã được tạo";
+$lang["project_deleted"] = "Đầu việc đã bị xóa";
+$lang["project_task_created"] = "Công việc đã được tạo";
+$lang["project_task_updated"] = "Công việc đã được cập nhật";
+$lang["project_task_assigned"] = "Công việc đã được phân công";
+$lang["project_task_started"] = "Công việc đã được bắt đầu";
+$lang["project_task_finished"] = "Công việc đã được hoàn thành";
+$lang["project_task_reopened"] = "Công việc đã được mở lại";
+$lang["project_task_deleted"] = "Công việc đã bị xóa";
+$lang["project_task_commented"] = "Công việc đã được bổ sung ý kiến";
+$lang["project_member_added"] = "Đầu việc được thêm thành viên";
+$lang["project_member_deleted"] = "Đầu việc bị xóa thành viên";
+$lang["project_file_added"] = "Tập tin cho Đầu việc được thêm";
+$lang["project_file_deleted"] = "Tập tin cho Đầu việc bị xóa";
+$lang["project_file_commented"] = "Có nhận xét cho tập tin của Đầu việc";
+$lang["project_comment_added"] = "Có nhận xét bổ sung cho tập tin của Đầu việc";
+$lang["project_comment_replied"] = "Nhận xét cho tập tin của Đầu việc đã được trả lời";
+$lang["project_customer_feedback_added"] = "Project customer feedback added";
+$lang["project_customer_feedback_replied"] = "Project customer feedback replied";
+$lang["client_signup"] = "Đối tác đăng ký";
+$lang["invoice_online_payment_received"] = "Invoice online payment received";
+$lang["leave_application_submitted"] = "Leave application submitted";
+$lang["leave_approved"] = "Đơn xin đã được phê duyệt";
+$lang["leave_assigned"] = "Leave assigned";
+$lang["leave_rejected"] = "Leave rejected";
+$lang["leave_canceled"] = "Leave canceled";
+$lang["ticket_created"] = "Ticket đã được tạo";
+$lang["ticket_commented"] = "Ticket có thông tin phản hồi";
+$lang["ticket_closed"] = "Ticket đã đóng";
+$lang["ticket_reopened"] = "Ticket đã được mở lại";
+$lang["leave"] = "Nghỉ phép";
+
+$lang["client_primary_contact"] = "Liên hệ chính của khách hàng";
+$lang["client_all_contacts"] = "Tất cả liên lạc của khách hàng";
+$lang["task_assignee"] = "Người được gán c.việc";
+$lang["task_collaborators"] = "Người phối hợp";
+$lang["comment_creator"] = "Comment creator";
+$lang["leave_applicant"] = "Người xin nghỉ phép";
+$lang["ticket_creator"] = "Người tạo Ticket";
+
+$lang["no_new_notifications"] = "Không có thông báo nào.";
+
+/* Notification messages */
+
+$lang["notification_project_created"] = "Đã tạo đầu việc mới.";
+$lang["notification_project_deleted"] = "Đã xóa một đầu việc.";
+$lang["notification_project_task_created"] = "Đã tạo một công việc mới.";
+$lang["notification_project_task_updated"] = "Đã cập nhật một công việc.";
+$lang["notification_project_task_assigned"] = "Đã phân công công việc cho %s"; //Assigned a task to Mr. X
+$lang["notification_project_task_started"] = "Đã bắt đầu công việc.";
+$lang["notification_project_task_finished"] = "Đã hoàn thành công việc.";
+$lang["notification_project_task_reopened"] = "Đã mở lại công việc.";
+$lang["notification_project_task_deleted"] = "Đã xóa công việc.";
+$lang["notification_project_task_commented"] = "Đã cập nhật vào công việc.";
+$lang["notification_project_member_added"] = "Đã thêm %s vào đầu việc."; //Added Mr. X in a project.
+$lang["notification_project_member_deleted"] = "Đã xóa %s khỏi đầu việc."; //Deleted Mr. X from a project.
+$lang["notification_project_file_added"] = "Đã thêm tập tin vào đầu việc.";
+$lang["notification_project_file_deleted"] = "Đã xóa tập tin khỏi đầu việc.";
+$lang["notification_project_file_commented"] = "Commented on a file.";
+$lang["notification_project_comment_added"] = "Commented on a project.";
+$lang["notification_project_comment_replied"] = "Replied on a project comment.";
+$lang["notification_project_customer_feedback_added"] = "Đã trao đổi trên đầu việc.";
+$lang["notification_project_customer_feedback_replied"] = "Đã trả lời nội dung trao đổi.";
+$lang["notification_client_signup"] = "Signed up as a new client."; //Mr. X signed up as a new client.
+$lang["notification_invoice_online_payment_received"] = "Submitted a online payment.";
+$lang["notification_leave_application_submitted"] = "Submitted a leave application.";
+$lang["notification_leave_approved"] = "Approved a leave of %s."; //Approved a leave of Mr. X
+$lang["notification_leave_assigned"] = "Assigned a leave to %s."; //Assigned a leave to Mr. X
+$lang["notification_leave_rejected"] = "Rejected a leave %s."; //Approve a leave of Mr. X
+$lang["notification_leave_canceled"] = "Canceled a leave appliction.";
+$lang["notification_ticket_created"] = "Đã tạo Ticket mới.";
+$lang["notification_ticket_commented"] = "Đã trao đổi trên Ticket.";
+$lang["notification_ticket_closed"] = "Đã đóng Ticket.";
+$lang["notification_ticket_reopened"] = "Đã mở lại Ticket.";
+
+$lang["general_notification"] = "Thông báo chung";
+
+$lang["disable_online_payment"] = "Tắt chức năng thanh toán trực tuyến";
+$lang["disable_online_payment_description"] = "Hide online payment options in invoice for this client.";
+
+$lang["client_can_view_project_files"] = "Đối tác có thể xem tập tin của Đầu việc?";
+$lang["client_can_add_project_files"] = "Client can add project files?";
+$lang["client_can_comment_on_files"] = "Client can comment of files?";
+$lang["mark_invoice_as_not_paid"] = "Mark as Not paid"; //Change invoice status to Not Paid
+
+$lang["set_team_members_permission"] = "Đặt quyền hạn cho thành viên nhóm";
+$lang["can_view_team_members_contact_info"] = "Có thể xem thông tin liên hệ của thành viên nhóm?";
+$lang["can_view_team_members_social_links"] = "Có thể xem các tài khoản xã hội của thành viên nhóm?";
+
+$lang["collaborator"] = "Người phối hợp";
+$lang["collaborators"] = "Người phối hợp";
+
+/* Version 1.4 */
+
+$lang["modules"] = "Các Phân hệ RISE";
+$lang["manage_modules"] = "Quản lý Phân hệ";
+$lang["module_settings_instructions"] = "Chọn các phân hệ muốn sử dụng.";
+
+$lang["task_point_help_text"] = "Điểm số phản ánh giá trị của công việc cần thực hiện với mức 5 là có độ khó cao nhất và 1 là dễ nhất."; //meaning of task point
+
+$lang["mark_as_open"] = "Đánh dấu là Chưa xử lý";
+$lang["mark_as_closed"] = "Đánh dấu là Đóng";
+
+$lang["ticket_assignee"] = "Người được gán Ticket";
+
+$lang["estimate"] = "Dự toán";
+$lang["estimates"] = "Dự toán";
+$lang["estimate_request"] = "Yêu cầu dự toán";
+$lang["estimate_requests"] = "Yêu cầu dự toán";
+$lang["estimate_list"] = "Danh mục dự toán";
+$lang["estimate_forms"] = "Biểu mẫu dự toán";
+$lang["estimate_request_forms"] = "Biểu mẫu yêu cầu dự toán";
+
+$lang["add_form"] = "Thêm biểu mẫu";
+$lang["edit_form"] = "Sửa mẫu";
+$lang["delete_form"] = "Xóa mẫu";
+
+$lang["add_field"] = "Thêm trường thông tin";
+$lang["placeholder"] = "Thông tin hiển thị mẫu";
+$lang["required"] = "Bắt buộc";
+
+$lang["field_type"] = "Kiểu trường thông tin";
+$lang["preview"] = "Xem trước";
+
+$lang["field_type_text"] = "Text";
+$lang["field_type_textarea"] = "Textarea";
+$lang["field_type_select"] = "Select";
+$lang["field_type_multi_select"] = "Multi Select";
+
+$lang["request_an_estimate"] = "Request an Estimate";
+$lang["estimate_submission_message"] = "Your request has been submitted successfully!";
+
+$lang["hold"] = "Đã đình lại";
+$lang["processing"] = "Đang xử lý";
+$lang["estimated"] = "Estimated";
+
+$lang["add_estimate"] = "Add estimate";
+$lang["edit_estimate"] = "Edit estimate";
+$lang["delete_estimate"] = "Delete estimate";
+$lang["valid_until"] = "Valid until";
+$lang["estimate_date"] = "Estimate date";
+$lang["accepted"] = "Accepted";
+$lang["declined"] = "Declined";
+$lang["sent"] = "Đã gửi";
+$lang["estimate_preview"] = "Estimate Preview";
+$lang["estimate_to"] = "Estimate To";
+
+$lang["can_access_estimates"] = "Có thể tiếp cận mục Dự toán?";
+$lang["request_an_estimate"] = "Request an estimate";
+$lang["estimate_request_form_selection_title"] = "Please select a form from the following list to submit your request.";
+
+$lang["mark_as_processing"] = "Mark as Processing";
+$lang["mark_as_estimated"] = "Mark as Estimated";
+$lang["mark_as_hold"] = "Đánh dấu là Đình lại";
+$lang["mark_as_canceled"] = "Đánh dấu là Đã hủy bỏ";
+
+$lang["mark_as_sent"] = "Đánh dấu là Đã gửi";
+$lang["mark_as_accepted"] = "Đánh dấu là Đã chấp nhận";
+$lang["mark_as_rejected"] = "Đánh dấu là Đã phản đối";
+$lang["mark_as_declined"] = "Đánh dấu là Đã từ chối";
+
+$lang["estimate_request_received"] = "Estimate request received";
+$lang["estimate_sent"] = "Estimate sent";
+$lang["estimate_accepted"] = "Estimate accepted";
+$lang["estimate_rejected"] = "Estimate rejected";
+
+$lang["notification_estimate_request_received"] = "Submitted an estimate request";
+$lang["notification_estimate_sent"] = "Sent an estimate";
+$lang["notification_estimate_accepted"] = "Accepted an estimate";
+$lang["notification_estimate_rejected"] = "Rejected an estimate";
+
+$lang["clone_project"] = "Sao chép Đầu việc";
+$lang["copy_tasks"] = "Sao chép Công việc";
+$lang["copy_project_members"] = "Sao chép thành viên tham gia";
+$lang["copy_milestones"] = "Sao chép Mốc cần đạt";
+$lang["copy_same_assignee_and_collaborators"] = "Sao chép người được gán và người hợp tác tương tự";
+$lang["copy_tasks_start_date_and_deadline"] = "Sao chép ngày bắt đầu và hạn thực hiện công việc";
+$lang["task_comments_will_not_be_included"] = "Các trao đổi trong công việc sẽ không được bao gồm";
+$lang["project_cloned_successfully"] = "Đầu việc đã được nhân bản thành công";
+
+$lang["search"] = "Tìm kiếm";
+$lang["no_record_found"] = "Không thấy bản ghi nào.";
+$lang["excel"] = "Excel";
+$lang["print_button_help_text"] = "Nhấn nút thoát khi hoàn thành.";
+$lang["are_you_sure"] = "Chắc không?";
+$lang["file_upload_instruction"] = "Drag-and-drop documents here <br /> (or click to browse...)";
+$lang["file_name_too_long"] = "Tên tập tin quá dài.";
+$lang["scrollbar"] = "Thanh cuộn";
+
+$lang["short_sunday"] = "CN";
+$lang["short_monday"] = "Hai";
+$lang["short_tuesday"] = "Ba";
+$lang["short_wednesday"] = "Tư";
+$lang["short_thursday"] = "Năm";
+$lang["short_friday"] = "Sáu";
+$lang["short_saturday"] = "Bảy";
+
+$lang["min_sunday"] = "CN";
+$lang["min_monday"] = "Hai";
+$lang["min_tuesday"] = "Ba";
+$lang["min_wednesday"] = "Tư";
+$lang["min_thursday"] = "Năm";
+$lang["min_friday"] = "Sáu";
+$lang["min_saturday"] = "Bảy";
+
+$lang["january"] = "Giêng";
+$lang["february"] = "Tháng Hai";
+$lang["march"] = "Tháng Ba";
+$lang["april"] = "Tháng Tư";
+$lang["may"] = "Tháng Năm";
+$lang["june"] = "Tháng Sáu";
+$lang["july"] = "Tháng Bảy";
+$lang["august"] = "Tháng Tám";
+$lang["september"] = "Tháng Chín";
+$lang["october"] = "Tháng Mười";
+$lang["november"] = "Thàng Mười một";
+$lang["december"] = "Tháng Mười hai";
+
+$lang["short_january"] = "Thg.1";
+$lang["short_february"] = "Thg.2";
+$lang["short_march"] = "Thg.3";
+$lang["short_april"] = "Thg.4";
+$lang["short_may"] = "Thg.5";
+$lang["short_june"] = "Thg.6";
+$lang["short_july"] = "Thg.7";
+$lang["short_august"] = "Thg.8";
+$lang["short_september"] = "Thg.9";
+$lang["short_october"] = "Thg.10";
+$lang["short_november"] = "Thg.11";
+$lang["short_december"] = "Thg.12";
+
+/* Version 1.5 */
+
+$lang["no_such_file_or_directory_found"] = "Chẳng có tập tin hay thư mục đó.";
+$lang["gantt"] = "Bảng GANTT";
+$lang["not_specified"] = "Không lọc cụ thể";
+$lang["group_by"] = "Nhóm theo";
+$lang["create_invoice"] = "Create Invoice";
+$lang["include_all_items_of_this_estimate"] = "Include all items of this estimate";
+$lang["edit_payment"] = "Edit payment";
+$lang["disable_client_login"] = "Không cho khách hàng đăng nhập";
+$lang["disable_client_signup"] = "Không cho khách hàng đăng ký";
+
+$lang["chart"] = "Biểu đồ";
+$lang["signin_page_background"] = "Hình nền phần đăng nhập";
+$lang["show_logo_in_signin_page"] = "Hiển thị logo ở trang đăng nhập";
+$lang["show_background_image_in_signin_page"] = "Hiển thị hình nền phần đăng nhập";
+
+/* Version 1.6 */
+
+$lang["more"] = "Thêm";
+$lang["custom"] = "Tùy chỉnh";
+$lang["clear"] = "Xóa";
+$lang["expired"] = "Đã hết hạn";
+$lang["enable_attachment"] = "Cho phép đính kèm";
+$lang["custom_fields"] = "Trường tùy chỉnh";
+$lang["edit_field"] = "Sửa trường thông tin";
+$lang["delete_field"] = "Xóa trường thông tin";
+$lang["client_info"] = "TT Đối tác";
+$lang["edit_expenses_category"] = "Edit expenses category";
+$lang["eelete_expenses_category"] = "Delete expenses category";
+$lang["empty_starred_projects"] = "Để truy cập nhanh tới các đầu việc quan tâm nhất, hãy vào phần Đầu việc -> chọn Đầu việc bạn quan tâm và nhấp vào dấu sao.";
+$lang["empty_starred_clients"] = "Để truy cập nhanh tới đối tác bạn ưu tiên nhất, hãy vào Đối tác -> chọn Đối tác bạn ưu tiên và nhấp vào dấu sao.";
+$lang["download_zip_name"] = "tài liệu";
+$lang["invoice_prefix"] = "Invoice prefix";
+$lang["invoice_style"] = "Invoice style";
+$lang["delete_confirmation_message"] = " Chắc không? Thực hiện cái là hết quay lại luôn!";
+$lang["left"] = "Trái";
+$lang["right"] = "Phải";
+$lang["currency_position"] = "Currency Position";
+$lang["recipient"] = "Recipient";
+
+$lang["new_message_sent"] = "New message sent";
+$lang["message_reply_sent"] = "Message replied";
+$lang["notification_new_message_sent"] = "Sent a message.";
+$lang["notification_message_reply_sent"] = "Replied a message.";
+$lang["invoice_payment_confirmation"] = "Invoice payment confirmation";
+$lang["notification_invoice_payment_confirmation"] = "Payment received";
+
+/* Version 1.7 */
+
+$lang["client_can_create_projects"] = "Có thể tạo các đầu việc?";
+$lang["client_can_view_timesheet"] = "Khách hàng có thể xem phiếu thời gian?";
+$lang["client_can_view_gantt"] = "Khách hàng có thể xem bảng Gantt?";
+$lang["client_can_view_overview"] = "Khách hàng có thể xem tổng quan đầu việc?";
+$lang["client_can_view_milestones"] = "Khách hàng có thể xem các mốc cần đạt?";
+
+$lang["items"] = "Sản phẩm";
+$lang["edit_item"] = "Sửa mục";
+$lang["item_edit_instruction"] = "Note: The changes will not be affected on existing invoices or estimates.";
+
+$lang["recurring"] = "Lặp lại";
+$lang["repeat_every"] = "Lặp lại mỗi"; //Ex. repeat every 2 months
+$lang["interval_days"] = "ngày ";
+$lang["interval_weeks"] = "tuần";
+$lang["interval_months"] = "tháng";
+$lang["interval_years"] = "năm";
+$lang["cycles"] = "Chu kỳ";
+$lang["recurring_cycle_instructions"] = "Recurring will be stopped after the number of cycles. Keep it blank for infinity.";
+$lang["next_recurring_date"] = "Next recurring";
+$lang["stopped"] = "Đã dừng";
+$lang["past_recurring_date_error_message_title"] = "The selected bill date and repeat type returns a past date.";
+$lang["past_recurring_date_error_message"] = "Next recurring date must be a future date. Please enter a future date.";
+$lang["sub_invoices"] = "Sub invoices";
+
+$lang["cron_job_required"] = "Cron Job is required for this action!";
+
+$lang["recurring_invoice_created_vai_cron_job"] = "Recurring invoice created via Cron Job";
+$lang["notification_recurring_invoice_created_vai_cron_job"] = "New invoice generated";
+
+$lang["field_type_number"] = "Số";
+$lang["show_in_table"] = "Show in table";
+$lang["show_in_invoice"] = "Show in invoice";
+$lang["visible_to_admins_only"] = "Visible to admins only";
+$lang["hide_from_clients"] = "Ẩn khỏi đối tác";
+$lang["public"] = "Công khai";
+
+$lang["help"] = "Mục trợ giúp";
+$lang["articles"] = "Bài viết";
+$lang["add_article"] = "Thêm bài viết mới";
+$lang["edit_article"] = "Sửa bài viết";
+$lang["delete_article"] = "Xóa bài viết";
+$lang["can_manage_help_and_knowledge_base"] = "Có thể quản lý Mục Trợ giúp và Kho kiến thức?";
+
+$lang["how_can_we_help"] = "Bạn cần hỗ trợ gì?";
+$lang["help_page_title"] = "Thư viện tham khảo";
+$lang["search_your_question"] = "Tìm kiếm câu hỏi của bạn";
+$lang["no_result_found"] = "Không thấy gì.";
+$lang["sort"] = "Lọc";
+$lang["total_views"] = "Tổng lần xem";
+
+$lang["help_and_support"] = "Trợ giúp";
+$lang["knowledge_base"] = "Thư viện kiến thức";
+
+$lang["payment_success_message"] = "Your payment has been completed.";
+$lang["payment_card_charged_but_system_error_message"] = "You card may be charged but we can't complete the process. Please contact to your system admin.";
+$lang["card_payment_failed_error_message"] = "We can't process your payment right now, so please try again later.";
+
+$lang["message_received"] = "Tin nhắn đã nhận được";
+$lang["in_number_of_days"] = "Trong %s ngày"; //Ex. In 7 days
+$lang["details"] = "Chi tiết";
+$lang["summary"] = "Tóm tắt";
+$lang["project_timesheet"] = "Bảng thời gian Đầu việc";
+
+$lang["set_event_permissions"] = "Set event permissions";
+$lang["disable_event_sharing"] = "Disable event sharing";
+$lang["can_update_team_members_general_info_and_social_links"] = "Can update team member's general info and social links?";
+$lang["can_manage_team_members_project_timesheet"] = "Có thể quản lý phiếu thời gian dự án của thành viên nhóm?";
+
+$lang["cron_job"] = "Cron Job - Kỹ thuật";
+$lang["cron_job_link"] = "Cron Job link";
+$lang["last_cron_job_run"] = "Last Cron Job run";
+$lang["created_from"] = "Created from"; //Ex. Created from Invoice#1
+$lang["recommended_execution_interval"] = "Recommended execution interval";
+
+/* Version 1.8 */
+
+$lang["integration"] = "Tích hợp Hệ thống";
+$lang["get_your_key_from_here"] = "Get your key from here:";
+$lang["re_captcha_site_key"] = "Site key";
+$lang["re_captcha_secret_key"] = "Secret key";
+
+$lang["re_captcha_error-missing-input-secret"] = "reCAPTCHA secret is missing";
+$lang["re_captcha_error-invalid-input-secret"] = "reCAPTCHA secret is not valid.";
+$lang["re_captcha_error-missing-input-response"] = "Please select the reCAPTCHA.";
+$lang["re_captcha_error-invalid-input-response"] = "The response parameter is invalid or malformed.";
+$lang["re_captcha_error-bad-request"] = "The request is invalid or malformed.";
+$lang["re_captcha_expired"] = "The reCAPTCHA has been expired. Please reload the page.";
+
+$lang["yes_all_tickets"] = "Có, tất cả Ticket";
+$lang["choose_ticket_types"] = "Chọn kiểu Ticket";
+
+$lang["can_manage_all_projects"] = "Có thể quản lý (tạo/sửa/xóa) tất cả các dự án";
+$lang["show_most_recent_ticket_comments_at_the_top"] = "Hiển thị trao đổi Ticket mới nhất lên trên cùng";
+
+$lang["new_event_added_in_calendar"] = "New event added in calendar";
+$lang["notification_new_event_added_in_calendar"] = "Added a new event.";
+
+$lang["todo"] = "Cần làm";
+$lang["add_a_todo"] = "Thêm vào Cần làm...";
+
+/* Version 1.9 */
+
+$lang["client_groups"] = "Nhóm đối tác";
+$lang["add_client_group"] = "Thêm nhóm đối tác";
+$lang["edit_client_group"] = "Sửa nhóm đối tác";
+$lang["delete_client_group"] = "Xóa nhóm đối tác";
+
+$lang["ticket_prefix"] = "Ticket prefix";
+$lang["add_a_task"] = "Thêm một c.việc...";
+
+$lang["add_task_status"] = "Thêm trạng thái c.việc";
+$lang["edit_task_status"] = "Sửa trạng thái c.việc";
+$lang["delete_task_status"] = "Xóa trạng thái c.việc";
+
+$lang["list"] = "(DS)";
+$lang["kanban"] = "(Kanban)";
+$lang["priority"] = "Ưu tiên";
+$lang["moved_up"] = "Dịch lên";
+$lang["moved_down"] = "Dịch xuống";
+$lang["mark_project_as_hold"] = "Chuyển sang Đình lại";
+
+$lang["repeat"] = "Lặp lại";
+
+$lang["hide_team_members_list"] = "Ẩn danh sách thành viên nhóm?";
+
+/* Version 2.0 */
+
+$lang["summary_details"] = "Chi tiết tóm lược";
+
+$lang["chat"] = "Trò chuyện";
+$lang["my_preferences"] = "Thiết lập ưu tiên";
+$lang["show_push_notification"] = "Hiển thị thông báo đẩy";
+$lang["notification_sound_volume"] = "Âm thanh thông báo";
+
+$lang["project_reference_in_tickets"] = "Enable project reference";
+
+$lang["hide_menus_from_client_portal"] = "Ẩn các Menu khỏi giao diện dành cho khách hàng";
+$lang["hidden_menus"] = "Ẩn menu";
+
+$lang["new_announcement_created"] = "New announcement created";
+$lang["notification_new_announcement_created"] = "Created an announcement.";
+
+$lang["month"] = "Tháng";
+$lang["profit"] = "Lợi nhuận";
+
+$lang["invoice_due_reminder_before_due_date"] = "Invoice due reminder before due date";
+$lang["send_due_invoice_reminder_notification_before"] = "Send due invoice reminder before due date";
+$lang["send_invoice_overdue_reminder_after"] = "Send invoice overdue reminder after";
+$lang["invoice_overdue_reminder"] = "Invoice overdue reminder";
+$lang["recurring_invoice_creation_reminder"] = "Recurring invoice creation reminder";
+$lang["send_recurring_invoice_reminder_before_creation"] = "Send recurring invoice reminder before creation";
+
+$lang["notification_invoice_due_reminder_before_due_date"] = "Reminder: Invoice due.";
+$lang["notification_invoice_overdue_reminder"] = "Reminder: Invoice overdue";
+$lang["notification_recurring_invoice_creation_reminder"] = "An invoice will be generated soon.";
+
+$lang["can_delete_leave_application"] = "Có thể xóa đơn xin nghỉ phép?";
+$lang["no_of_decimals"] = "No. of decimals";
+
+$lang["checklist"] = "Danh sách kiểm";
+$lang["delete_checklist_item"] = "Xóa mục của danh sách kiểm";
+
+$lang["save_and_show"] = "Lưu & hiện";
+$lang["total_leave_yearly"] = "Tổng Nghỉ phép (hàng năm)";
+
+$lang["new_conversation"] = "Hội thoại mới";
+
+$lang["enable_web_notification"] = "Cho phép báo trên web";
+$lang["enable_email_notification"] = "Cho phép báo qua email";
+
+/* Version 2.0.3 */
+
+$lang["show_in_estimate"] = "Show in estimate";
+$lang["mentioned_members"] = "Mentioned members";
+$lang["all"] = "Tất cả";
+
+$lang["confirmed"] = "Confirmed";
+$lang["confirm"] = "Confirm";
+
+$lang["confirmed_by"] = "Confirmed by";
+$lang["confirm_event"] = "Confirm event";
+$lang["reject_event"] = "Reject event";
+$lang["event_status"] = "Event status";
+
+$lang["specific_client_contacts"] = "Specific client contacts";
+$lang["choose_client_contacts"] = "Choose client contacts";
+$lang["invitations_sent"] = "Các thư mời đã được gửi.";
+
+/* Version 2.1 */
+
+$lang["add_new_dashboard"] = "Thêm DASHBOARD";
+$lang["add_row"] = "Thêm hàng";
+
+$lang["available_widgets"] = "Available Widgets";
+$lang["your_selected_widgets_will_be_appear_here"] = "Your selected widgets will be appear here";
+$lang["drag_and_drop_widgets_here"] = "Drag and drop widgets here";
+$lang["no_more_widgets_available"] = "No more widgets available";
+$lang["invalid_widget_access"] = "You don't have permission to access this widget";
+
+$lang["dashboard_title"] = "Tiêu đề DASHBOARD";
+$lang["edit_dashboard"] = "Sửa DASHBOARD";
+$lang["edit_title"] = "Sửa tiêu đề";
+$lang["default_dashboard"] = "DASHBOARD Mặc định";
+
+$lang["widget"] = "Widget";
+$lang["widgets"] = "Widgets";
+$lang["add_widget"] = "Add widget";
+$lang["edit_widget"] = "Edit widget";
+$lang["delete_widget"] = "Delete widget";
+
+$lang["content"] = "Nội dung";
+$lang["clock_in_out"] = "Clock in-out";
+$lang["custom_widget_details"] = "Custom widget details";
+
+$lang["total_projects"] = "Total projects";
+$lang["total_invoices"] = "Total invoices";
+$lang["total_payments"] = "Total payments";
+$lang["total_due"] = "Total due";
+
+$lang["show_title"] = "Show title";
+$lang["show_border"] = "Show border";
+
+$lang["all_tasks_kanban"] = "Kanban tất cả các công việc";
+$lang["todo_list"] = "Danh sách việc cần làm";
+$lang["open_projects_list"] = "Danh sách các Đầu việc đang t.hiện";
+$lang["starred_projects"] = "Đầu việc đã bắt đầu";
+$lang["completed_projects"] = "Đầu việc đã hoàn thành";
+
+$lang["new_tickets"] = "Ticket mới";
+$lang["closed_tickets"] = "Ticket đã đóng";
+
+$lang["clocked_in_team_members"] = "Clocked in team members";
+$lang["clocked_out_team_members"] = "Clocked out team members";
+$lang["latest_online_client_contacts"] = "Latest online client contacts";
+$lang["latest_online_team_members"] = "Latest online team members";
+$lang["my_tasks_list"] = "Danh sách công việc của tôi";
+
+$lang["discount"] = "Discount";
+$lang["discount_type"] = "Discount Type";
+$lang["edit_discount"] = "Edit discount";
+$lang["discount_amount"] = "Discount amount";
+$lang["fixed_amount"] = "Fixed Amount";
+$lang["before_tax"] = "Before Tax";
+$lang["after_tax"] = "After Tax";
+
+$lang["access_permission"] = "Quyền hạn";
+$lang["setup"] = "Cài đặt";
+$lang["client_permissions"] = "Quyền hạn đối tác";
+
+$lang["invoice_over_payment_error_message"] = "You can't pay more than your invoice due.";
+$lang["account_already_exists_for_your_company_name"] = "Account already exists for your company name.";
+$lang["personal_language"] = "Personal language";
+$lang["no_messages_text"] = "Bạn không có bất cứ tin nhắn nào";
+$lang["no_users_found"] = "Không có người dùng";
+
+$lang["create_project"] = "Tạo đầu việc";
+
+/* Version 2.2 */
+
+$lang["imap_settings"] = "IMAP settings";
+$lang["enable_email_piping"] = "Enable Email piping";
+$lang["imap_host"] = "IMAP Host";
+$lang["imap_port"] = "Port";
+$lang["imap_ssl_enabled"] = "SSL Enabled";
+$lang["please_upgrade_your_php_version"] = "Please upgrade your PHP Version for this operation.";
+$lang["required_version"] = "Required Version";
+$lang["email_piping_help_message"] = "Please make sure that, your IMap access is enabled.";
+
+$lang["enable_rich_text_editor"] = "Enable rich text editor in comments/description";
+
+$lang["show_assigned_tasks_only"] = "Show assigned tasks only";
+
+$lang["batch_update"] = "Cập nhật theo loạt";
+$lang["cancel_selection"] = "Hủy chọn";
+$lang["select_status"] = "Chọn trạng thái";
+
+$lang["add_multiple_tasks"] = "Thêm nhiều việc";
+$lang["save_and_add_more"] = "Lưu & tiếp tục thêm";
+$lang["add_project_time"] = "Thêm thời gian Đầu việc";
+$lang["add_to_do"] = "Thêm việc cần làm";
+$lang["hide_menus_from_topbar"] = "ẨN Menu khỏi thanh trên cùng";
+$lang["favorite_projects"] = "Dự án ưu tiên";
+$lang["favorite_clients"] = "Đối tác quan tâm";
+$lang["dashboard_customization"] = "Tùy chỉnh Dashboard";
+$lang["quick_add"] = "Thêm nhanh";
+
+$lang["assign_to_me"] = "Gán cho tôi";
+
+$lang["favicon"] = "Favicon";
+
+$lang["enable_google_drive_api_to_upload_file"] = "Enable Google Drive API to upload file";
+$lang["drive_activation_help_message"] = "From now on, all files will be uploaded into Google Drive.";
+
+$lang["mark_all_as_read"] = "Đánh dấu tất cả là đã đọc";
+$lang["marked_all_notifications_as_read"] = "Đánh dấu tất cả các thông báo thành đã đọc";
+
+$lang["project_completed"] = "Đầu việc đã hoàn thành";
+$lang["notification_project_completed"] = "Đã hoàn thành 1 đầu việc";
+
+$lang["google_drive_client_id"] = "Client ID";
+$lang["google_drive_client_secret"] = "Client secret";
+$lang["get_your_app_credentials_from_here"] = "Get your app credentials from here:";
+$lang["remember_to_add_this_url_in_authorized_redirect_uri"] = "Remember to add this url in Authorized redirect uri";
+$lang["save_and_authorize"] = "Lưu & Xác thực";
+
+$lang["preview_next_key"] = "Next (Right arrow key)";
+$lang["preview_previous_key"] = "Previous (Left arrow key)";
+
+$lang["filters"] = "Filters";
+
+$lang["authorized"] = "Đã cấp quyền";
+$lang["unauthorized"] = "Chưa cấp quyền";
+
+$lang["not_clocked_id_yet"] = "Not clocked in yet";
+
+$lang["create_estimate_request"] = "Create estimate request";
+
+$lang["in_last_number_of_days"] = "Trong %s ngày qua";
+$lang["in_last_number_of_month"] = "Trong %s tháng qua";
+$lang["in_last_number_of_months"] = "Trong %s tháng qua";
+
+$lang["pusher_app_id"] = "App ID";
+$lang["pusher_key"] = "Key";
+$lang["pusher_secret"] = "Secret";
+$lang["pusher_cluster"] = "Cluster";
+$lang["enable_push_notification"] = "Cho phép thông báo đẩy";
+$lang["push_notification"] = "Thông báo đẩy";
+$lang["disable_push_notification"] = "Bất hoạt thông báo đẩy";
+
+$lang["unknown_client"] = "Khách hàng không xác định";
+
+$lang["income_expenses_widget_help_message"] = "This report is only usable if you are using single currency.";
+
+$lang["assign_myself_in_this_ticket"] = "Assign myself in this ticket";
+
+$lang["create_new_task"] = "Tạo Công việc mới";
+
+$lang["default_due_date_after_billing_date"] = "Default due date after billing date";
+
+$lang["field_type_external_link"] = "Đường dẫn ngoài";
+
+$lang["total_days"] = "Tổng ngày";
+
+$lang["my_timesheet"] = "My timesheet";
+$lang["all_timesheets"] = "All timesheets";
+$lang["my_timesheet_statistics"] = "My timesheet statistics";
+$lang["all_timesheets_statistics"] = "All timesheets statistics";
+
+$lang["no_field_has_selected"] = "No field has selected!";
+
+$lang["imap_help_message_1"] = "You can setup an email address to create the tickets automatically when you receive any emails at that address.";
+$lang["imap_help_message_2"] = "Please note that, the system will create tickets based on the unread emails. After creating the ticket, the emails will be marked as read. To get the replies in the same tickets, the system will check the ticket ID in the email subject. If there is no ticket ID in the subject, that will be considered as a new ticket. You can setup the email subject from the";
+$lang["imap_error_credentials_message"] = "Error! Can't connect with the imap using the credentials.";
+
+$lang["client_message_own_contacts"] = "Client can send/receive message to/from own contacts?";
+
+$lang["print_invoice"] = "In Hóa đơn";
+
+$lang["mark_invoice_as_cancelled"] = "Đánh dấu là đã hủy bỏ";
+$lang["cancelled"] = "Đã hủy bỏ";
+$lang["cancelled_at"] = "Đã hủy bỏ lúc";
+$lang["cancelled_by"] = "Đã hủy bỏ bởi";
+
+/* Version 2.3 */
+
+$lang["test_push_notification"] = "Kiểm thử thông báo đẩy";
+$lang["notification_test_push_notification"] = "Đây là một thông báo đẩy demo";
+$lang["push_notification_error_message"] = "Error! Can't connect with the Pusher using the credentials.";
+$lang["clone_estimate"] = "Clone Estimate";
+
+$lang["import_clients"] = "Nhập danh mục đối tác";
+$lang["download_sample_file"] = "Tập tin mẫu";
+
+$lang["estimate_settings"] = "Estimate Settings";
+$lang["estimate_logo"] = "Estimate Logo";
+$lang["estimate_color"] = "Estimate Color";
+$lang["initial_number_of_the_estimate"] = "Initial number of the estimate";
+$lang["the_estimates_id_must_be_larger_then_last_estimate_id"] = "The estimates ID must be larger then last estimate ID.";
+
+$lang["send_to_client"] = "Send to client";
+$lang["estimate_sent_message"] = "The estimate has been sent!";
+$lang["send_estimate_bcc_to"] = "When sending estimate to client, send BCC to";
+        
+$lang["task_settings"] = "Thiết lập công việc";
+$lang["enable_recurring_option_for_tasks"] = "Enable recurring option for tasks";
+$lang["past_recurring_date_error_message_title_for_tasks"] = "The selected start date and repeat type returns a past date.";
+$lang["recurring_task_created_via_cron_job"] = "Recurring task created via Cron Job";
+$lang["notification_recurring_task_created_via_cron_job"] = "Công việc mới đã được tạo";
+$lang["repeat_type"] = "Hình thức lặp lại";
+$lang["lead_status"] = "Trạng thái đầu mối";
+$lang["add_lead_status"] = "Thêm trạng thái đầu mối";
+$lang["edit_lead_status"] = "Sửa trạng thái đầu mối";
+$lang["delete_lead_status"] = "Xóa trạng thái đầu mối";
+$lang["owner"] = "Người quản lý đầu mối";
+$lang["make_client"] = "Chuyển thành đối tác";
+$lang["client_contacts"] = "Liên lạc của đối tác";
+$lang["lead_contacts"] = "Liên lạc của đầu mối";
+$lang["add_a_lead"] = "Thêm một đầu mối";
+$lang["source"] = "Nguồn";
+$lang["new"] = "Mới";
+$lang["qualified"] = "Đủ điều kiện";
+$lang["discussion"] = "Đang tìm hiểu";
+$lang["negotiation"] = "Đang thương thảo";
+$lang["won"] = "Đã thắng";
+$lang["lost"] = "Đã mất";
+$lang["lead_source"] = "Nguồn đầu mối";
+$lang["add_lead_source"] = "Add lead source";
+$lang["edit_lead_source"] = "Edit lead source";
+$lang["delete_lead_source"] = "Delete lead source";
+$lang["custom_field_migration"] = "Custom field migration";
+$lang["merge_custom_fields"] = "Merge custom fields";
+$lang["do_not_merge"] = "Do not merge";
+$lang["merge_custom_fields_help_message"] = "If there is any similar custom fields exists for %s, this values will be added to those. Otherwise, this will create new custom fields for %s and add values to those.";
+$lang["lead_created"] = "Lead created";
+$lang["notification_lead_created"] = "Created a new lead.";
+$lang["client_created_from_lead"] = "Client created from lead";
+$lang["notification_client_created_from_lead"] = "Converted a lead to client.";
+$lang["project_deadline"] = "Hạn t.hiện đầu việc";
+$lang["task_deadline"] = "Hạn t.hiện công việc";
+$lang["event_type"] = "Kiểu sự kiện";
+$lang["delete_estimate_form"] = "Delete estimate form";
+$lang["calendar_event_modified"] = "Calendar event modified";
+$lang["notification_calendar_event_modified"] = "Modified an event.";
+
+$lang["there_has_leads_with_this_status"] = "There has leads with this status";
+$lang["lead_created_at"] = "Lead created at";
+$lang["past_lead_information"] = "Past lead information";
+$lang["last_status"] = "Last status";
+$lang["migrated_to_client_at"] = "Migrated to client at";
+$lang["edit_estimate_form"] = "Edit estimate form";
+
+$lang["please_upload_a_excel_file"] = "Vui lòng tải tập tin excel lên.";
+$lang["back"] = "Quay lại";
+
+$lang["import_client_error_header"] = "There has an invalid header. The indicated field should be <b>%s</b>.";
+$lang["import_client_error_company_name_field_required"] = "Company name field is required.";
+$lang["import_client_error_contact_name"] = "Contact first name and last is both required to add a client contact.";
+$lang["import_client_error_contact_email"] = "Contact email is required and should be unique to add a client contact.";
+$lang["error"] = "Lỗi";
+$lang["contact_first_name"] = "Tên gọi người liên lạc";
+$lang["contact_last_name"] = "Họ của người liên lạc";
+$lang["contact_email"] = "Email của người liên lạc";
+
+$lang["clone_invoice"] = "Sao chép Hóa đơn";
+$lang["copy_items"] = "Chép mục";
+$lang["copy_discount"] = "Sao chép chiết khấu";
+
+$lang["clone_task"] = "Sao chép công việc";
+$lang["copy_checklist"] = "Sao chép DS kiểm";
+
+$lang["auto_assign_estimate_request_to"] = "Auto assign estimate request to";
+
+$lang["email_template_variable"] = "Email template variable";
+$lang["example_variable_name"] = "Example_variable_name";
+
+$lang["imap_extension_error_help_message"] = "You don't have IMAP extension in your server. Please install the extension for this action.";
+
+$lang["initial_number_of_the_invoice"] = "Initial number of the invoice";
+$lang["the_invoices_id_must_be_larger_then_last_invoice_id"] = "The invoices ID must be larger then last invoice ID.";
+
+$lang["client_dashboard_help_message"] = "This will be the default dashboard for all clients. Please note that, the information you're seeing here in the widgets, isn't any actual infromation of clients.";
+
+$lang["send_to_lead"] = "Send to lead";
+$lang["lead"] = "Đầu mối";
+$lang["leads"] = "Đầu mối";
+$lang["add_lead"] = "Thêm đầu mối";
+$lang["edit_lead"] = "Sửa đầu mối";
+$lang["delete_lead"] = "Xóa đầu mối";
+$lang["lead_details"] = "Chi tiết đầu mối";
+$lang["can_access_leads_information"] = "Có thể tiếp cận thông tin đầu mối?";
+$lang["lead_info"] = "Thông tin đầu mối";
+
+$lang["send_task_reminder_on_the_day_of_deadline"] = "Send task reminder on the day of deadline";
+$lang["send_task_deadline_pre_reminder"] = "Send task deadline pre reminder";
+$lang["send_task_deadline_overdue_reminder"] = "Send task deadline overdue reminder";
+
+$lang["project_task_deadline_reminder"] = "Nhắc nhở đến hạn thực hiện công việc";
+
+$lang["project_task_deadline_pre_reminder"] = "Project task deadline pre reminder";
+$lang["project_task_deadline_overdue_reminder"] = "Project task deadline overdue reminder";
+$lang["project_task_reminder_on_the_day_of_deadline"] = "Project task reminder on the day of deadline";
+
+$lang["notification_project_task_deadline_pre_reminder"] = "Nhắc nhở: Một số việc cần hoàn thành sớm.";
+$lang["notification_project_task_deadline_overdue_reminder"] = "Nhắc nhở: Đã quá thời hạn hoàn thành việc.";
+$lang["notification_project_task_reminder_on_the_day_of_deadline"] = "Nhắc nhở: Một số công việc cần hoàn thiện ngày hôm nay.";
+
+$lang["mark_as_public"] = "Đánh dấu là công khai";
+$lang["note_details"] = "Chi tiết về ghi chú";
+$lang["public_note_by"] = "Ghi chú công khai bởi";
+$lang["marked_as_public"] = "Đã đánh dấu là công khai";
+
+$lang["client_can_view_activity"] = "Khách hàng có thể xem hoạt động của Đầu việc";
+
+$lang["event_settings"] = "Thiết lập Sự kiện";
+$lang["enable_google_calendar_api"] = "Enable Google calendar API";
+$lang["google_calendar_settings"] = "Thiết lập lịch Google";
+
+$lang["your_calendar_ids"] = "Your Calendar IDs";
+$lang["calendar_id"] = "Calendar ID";
+$lang["now_every_user_can_integrate_with_their_google_calendar"] = "Now every user can integrate with their Google calendar.";
+$lang["calendar_ids_help_message"] = "You'll get your own calendar events always. This is for other special calendars (Like Holidays Calendar).";
+
+$lang["google_client_id"] = "Client ID";
+$lang["google_client_secret"] = "Client secret";
+$lang["integrate_with_google_calendar"] = "Integrate with Google calendar";
+$lang["google_calendar_event"] = "Google Calendar event";
+
+$lang["mark_as_public_help_message"] = "You can't make this note as private again.";
+
+$lang["google_calendar_help_message"] = "You'll get your Google Calendar events by the run of Cron job. And any add/modification of your local events will effect your Google calendar instantly.";
+
+/* Version 2.4 */
+
+$lang["footer"] = "Chân trang";
+$lang["footer_description_message"] = "Chân trang này sẽ hiển thị trên tất cả các trang công khai.";
+$lang["estimate_footer"] = "Estimate Footer";
+$lang["enable_footer"] = "Cho phép Chân trang";
+$lang["footer_menus"] = "Menu Chân trang";
+$lang["footer_copyright_text"] = "Đoạn xác nhận Bản quyền";
+$lang["edit_footer_menu"] = "Sửa Menu Chân trang";
+
+$lang["menu_name"] = "Tên Menu";
+$lang["task_point_range"] = "Khoảng điểm công việc";
+
+$lang["gdpr"] = "GDPR";
+$lang["enable_gdpr"] = "Bật GDPR";
+$lang["allow_clients_to_export_their_data"] = "Cho phép khách hàng xuất dữ liệu cá nhân của họ";
+$lang["export_my_data"] = "Xuất dữ liệu của tôi";
+
+$lang["clients_can_request_account_removal"] = "Khách hàng có thể yêu cầu xóa bỏ tài khoản";
+$lang["i_want_to_remove_my_account"] = "Tôi muốn xóa tài khoản của tôi";
+$lang["client_contact_requested_account_removal"] = "Client contact requested account removal";
+$lang["notification_client_contact_requested_account_removal"] = "Requested account removal.";
+$lang["show_terms_and_conditions_in_client_signup_page"] = "Hiển thị Điều khoản và Điều kiện trên trang đăng ký";
+$lang["i_accept_the_terms_and_conditions"] = "Tôi chấp nhận";
+
+$lang["apply"] = "Áp dụng";
+$lang["applied"] = "Đã áp dụng";
+$lang["export"] = "Xuất";
+
+$lang["pages"] = "Trang";
+$lang["add_page"] = "Thêm trang";
+$lang["delete_page"] = "Xóa trang";
+$lang["page_url_cant_duplicate"] = "Page URL can't duplicate.";
+
+$lang["sub_tasks"] = "Phân rã công việc";
+$lang["sub_task"] = "Việc được phân rã";
+$lang["create_a_sub_task"] = "Tạo việc liên quan";
+$lang["create"] = "Tạo";
+$lang["parent_task"] = "Việc chính";
+
+$lang["this_task_blocked_by"] = "Công việc này chạy sau";
+$lang["this_task_blocking"] = "Công việc này phải chạy trước";
+$lang["add_dependency"] = "Thêm phụ thuộc";
+$lang["blocked_by"] = "Chạy sau";
+$lang["blocking"] = "Chạy trước";
+$lang["blocked"] = "Phải chạy sau";
+$lang["dependency"] = "Phụ thuộc";
+
+$lang["estimate_request_settings"] = "Estimate request settings";
+$lang["hidden_client_fields_on_public_estimate_requests"] = "Hide fields from public estimate request forms";
+$lang["hidden_client_fields"] = "Ẩn trường thông tin khách hàng";
+
+$lang["account"] = "Tài khoản";
+$lang["common"] = "Chung";
+
+$lang["tax_deducted_at_source"] = "TDS";
+$lang["auto_close_ticket_after"] = "Auto close ticket after"; //after x days
+$lang["disable_user_invitation_option_by_clients"] = "Disable user invitation option by clients";
+$lang["create_tickets_only_by_registered_emails"] = "Create tickets only by registered emails";
+$lang["icon"] = "Icon";
+$lang["help_articles"] = "Help articles";
+$lang["help_categories"] = "Help categories";
+$lang["knowledge_base_articles"] = "KB articles";
+$lang["knowledge_base_categories"] = "KB categories";
+
+$lang["rtl"] = "Trái qua phải";
+
+$lang["disable_editing_by_clients"] = "Disable editing by clients";
+
+$lang["client_left_menu"] = "Menu trái";
+$lang["left_menu_for_client"] = "Menu trái dành cho Khách hàng";
+$lang["left_menu_setting_help_message_for_client"] = "This will be the default left menu for clients. Please note that, the menu items will be distributed as per client contact's permissions.";
+$lang["available_menu_items"] = "Các mục menu hiện có";
+$lang["drag_and_drop_items_here"] = "Kéo và thả các mục vào đây";
+$lang["no_more_items_available"] = "Không còn mục nào cả";
+$lang["left_menu_preview_message"] = "Nhấn nút lưu để xem trước.";
+$lang["left_menu_setting_help_message"] = "This will be the default left menu for team members. Please note that, the menu items will be distributed as per user's permission.";
+
+$lang["draft_invoices"] = "Draft invoices";
+$lang["draft_invoices_total"] = "Draft Invoices Total";
+$lang["draft_invoices_value"] = "Draft invoices value";
+
+$lang["gdpr_terms_and_conditions_link"] = "URL Điều khoản và Điều kiện";
+$lang["gdpr_terms_and_conditions"] = "Điều khoản và Điều kiện";
+$lang["removal_request_pending"] = "Removal Request Pending";
+
+$lang["client_access_files_help_message"] = "The files which are located in client details view in the Files tab.";
+$lang["estimate_request_name_email_error_message"] = "Email can't be shown without first name and last name.";
+
+$lang["slug"] = "Slug";
+$lang["add_assignee"] = "Thêm người được giao việc";
+
+$lang["client_can_pay_invoice_without_login"] = "Client can pay invoices without login";
+$lang["client_can_pay_invoice_without_login_help_message"] = "Please add the PUBLIC_PAY_INVOICE_URL in the invoice email notification template.";
+
+$lang["link_to_existing_client"] = "Link to existing client";
+$lang["link_to_new_client"] = "Link to new client";
+
+$lang["client_can_view_files"] = "Khách hàng có thể xem tập tin?";
+$lang["client_can_add_files"] = "Khách hàng có thể thêm tập tin?";
+$lang["client_can_view_activity"] = "Khách hàng có thể xem hoạt động đầu việc?";
+$lang["client_can_edit_projects"] = "Khách hàng có thể sửa đầu việc?";
+
+$lang["view_pdf"] = "Xem PDF";
+
+$lang["add_new_task"] = "Thêm công việc mới";
+$lang["disable_keyboard_shortcuts"] = "Không dùng Shortcut phím";
+$lang["keyboard_shortcuts_info"] = "Thông tin shortcut phím";
+$lang["edit_shortcuts"] = "Sửa Shortcut";
+
+$lang["pending_leave_approval"] = "Phê duyệt nghỉ phép đang chờ";
+$lang["add_attachment"] = "Thêm đính kèm";
+
+$lang["hidden_topbar_menus"] = "Ẩn menu trên cùng";
+
+$lang["make_previous_items_sub_menu"] = "Make/remove sub menu of the previous item";
+$lang["add_menu_item"] = "Thêm mục menu";
+$lang["url"] = "URL";
+
+$lang["show_theme_color_changer"] = "Show theme color changer";
+$lang["default_theme_color"] = "Màu giao diện mặc định";
+$lang["left_menu"] = "Menu trái";
+$lang["client_assigned_contacts"] = "Assigned client contacts";
+$lang["timesheet_settings"] = "Cài đặt Phiếu thời gian";
+$lang["users_can_start_multiple_timers_at_a_time"] = "Users can start multiple timers at a time";
+
+$lang["delete_expenses_category"] = "Xóa hạng mục chi phí";
